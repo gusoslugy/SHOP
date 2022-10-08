@@ -1,0 +1,143 @@
+
+.glasses_text{
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 48px;    
+    text-align: center;
+}
+
+.glasses__descr{
+    display: flex;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    Width: 185.27px;
+    Height: 24px;
+    justify-content: space-between;
+    margin-left: 862px;
+    margin-right: 869px;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.glasses_span{
+    color: red;
+    
+}
+
+.glasses__block{
+    display: grid;
+    grid-auto-rows: 270px;
+    grid-template-columns: repeat(4,270px);
+    justify-content: center;
+    margin-top: 80px;
+    grid-row-gap: 30px;
+    grid-column-gap: 30px ;
+}
+
+
+
+.glass__item:nth-child(1){
+    background: url("images/glasses/1.png") center center/cover no-repeat;
+}
+.glass__item:nth-child(2){
+    background: url("images/glasses/2.png") center center/cover no-repeat;
+}
+.glass__item:nth-child(3){
+    background: url("images/glasses/3.png") center center/cover no-repeat;
+}
+.glass__item:nth-child(4){
+    background: url("images/glasses/4.png") center center/cover no-repeat;
+}
+.glass__item:nth-child(5){
+    background: url("images/glasses/5.png") center center/cover no-repeat;
+}
+.glass__item:nth-child(6){
+    background: url("images/glasses/6.png") center center/cover no-repeat;
+}
+.glass__item:nth-child(7){
+    background: url("images/glasses/7.png") center center/cover no-repeat;
+}
+.glass__item:nth-child(8){
+    background: url("images/glasses/8.png") center center/cover no-repeat;
+}
+.glass__item:nth-child(9){
+    background: url("images/glasses/9.png") center center/cover no-repeat;
+}
+.glass__item:nth-child(10){
+    background: url("images/glasses/10.png") center center/cover no-repeat;
+}
+.glass__item:nth-child(11){
+    background: url("images/glasses/11.png") center center/cover no-repeat;
+}
+.glass__item:nth-child(12){
+    background: url("images/glasses/12.png") center center/cover no-repeat;
+}
+
+.black__block-descr{
+    width: 179px;
+    height: 51px;
+    
+    color: #ffff;
+}
+.item__descr{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    
+}
+.item__price{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    margin-top: 5px;
+}
+    
+
+    
+.glass__item{
+    
+    
+    position: relative;
+    
+}
+
+.glass_icon{
+    display: flex;
+    width: 96px;
+    height: 16px;
+    justify-content: space-between;
+    margin-top: 33px ;
+    align-items: center;
+    margin-left: 40px;
+    
+}
+
+.black__block{
+    position: relative;
+    z-index: -1;
+    background: #1F1F1F;
+    opacity: 0.9;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    padding-top: 85px;
+    padding-left: 46px;
+
+}
+
+.glass__item:hover .black__block{
+    position: relative;
+    z-index: 2;
+    background: #1F1F1F;
+    opacity: 0.9;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    padding-top: 85px;
+    padding-left: 46px;
+
+}
