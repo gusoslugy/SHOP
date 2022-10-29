@@ -1,0 +1,22 @@
+{
+  "name": "shop",
+  "version": "1.0.0",
+  "description": "my json file",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gusoslugy/SHOP.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gusoslugy/SHOP/issues"
+  },
+  "homepage": "https://github.com/gusoslugy/SHOP#readme",
+  "dependencies": {
+    "bootstrap": "^5.2.2"
+  }
+}
